@@ -7,9 +7,9 @@ class user:
     def calculate_price(self):
         if self.size == "Small":
             self.price += 10
-        if self.size == "Medium"
+        elif self.size == "Medium"
             self.price += 12
-        if self.size == "Large"
+        elif self.size == "Large"
             self.price += 15
-        if self.size == "X Large"
+        elif self.size == "X Large"
             self.price += 18
